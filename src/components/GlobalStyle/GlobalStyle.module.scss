@@ -1,0 +1,28 @@
+@import 'normalize.css';
+
+
+
+:root {
+    --dark: #101010;
+    --white: #fff; 
+    --text-cl:#333;
+    --black:#000;
+    --brand-cl: #0058a4;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
