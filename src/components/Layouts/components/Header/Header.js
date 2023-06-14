@@ -11,7 +11,7 @@ function Header() {
             <Link to={config.routes.home} className={cx('logo')}>
                 <img src={image.logoMiddle.src} alt={image.logoMiddle.name} />
             </Link>
-            <Menu />
+            <Menu className={cx('menu')} />
         </div>
     );
 }
